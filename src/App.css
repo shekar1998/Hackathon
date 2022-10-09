@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +37,141 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+button:focus,
+input:focus{
+  outline: none;
+  box-shadow: none;
+}
+a,
+a:hover{
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+.fontStyle{
+  font-family: 'Nunito', sans-serif;
+}
+
+[role=presentation] {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fileUploadContain:hover{
+  background-color: #e3f1ff;
+  transition: background-color 0.5;
+}
+
+.fileUploadContain{
+  width: 100vh;
+  height: 50vh;
+  border: 2px dashed #1e80e8;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 14px;
+  background-color: #f5faff;
+}
+
+.fileUploadMainContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.FileType{
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2580e8;
+}
+
+.Upload{
+
+}
+
+.UploadButton{
+    margin-top: 20px;
+    width: 17vh;
+    height: 6vh;
+    border-radius: 23px;
+    border-width: 0px;
+    color: #fff;
+    background-color: #4097e3
+  }
+
+  .UploadButton:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+.UploadContainer{
+
+}
+
+.SelecteFileText{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.SelecteFileContanier{
+  justify-content: center;
+}
+
+.SelectedFileMain{
+  padding: 3px;
+  margin-top: 10px;
+  width: 100vh;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: #4097e3;
+}
+
+.DeletingFileButton{
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+}
+
+.FileView{
+width: 35px;
+height: 35px;
+display: flex;
+align-self: center;
+padding: 5px;
+}
+
+.FileViewDetails{
+
+}
+
+.SelectedFileNameContainer{
+  display: flex;
+  flex-direction: row;
+  width: 92%;
+}
+
+.SelecteFileTextSize{
+  font-family: 'Nunito', sans-serif;
+  font-size: 8px;
+  font-weight: 600;
+  color: #fff;
+  display: flex;
+}
+
+.UploadImage{
+  width: 15vh;
+  height: 15vh;
 }
