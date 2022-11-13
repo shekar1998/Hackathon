@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react"
+import React, { Fragment, useEffect, useState } from "react"
 import SearchFilters from "../SearchFilters/SearchFilters";
 import './ResultScreen.css';
 import { useSelector } from 'react-redux';

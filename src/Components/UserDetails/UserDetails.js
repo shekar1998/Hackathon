@@ -1,4 +1,6 @@
 import { CircularProgressbar } from 'react-circular-progressbar';
+import React from "react"
+
 import 'react-circular-progressbar/dist/styles.css';
 import './UserDetails.css'
 export default function UserDetails(){
