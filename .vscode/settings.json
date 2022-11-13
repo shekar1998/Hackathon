@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/2f058c7c-7e28-4efb-822a-c60584bd3ae5/AppServices/subscriptions/2f058c7c-7e28-4efb-822a-c60584bd3ae5/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/EliteMindApp",
+    "appService.deploySubpath": "."
+}
